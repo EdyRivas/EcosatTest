@@ -1,0 +1,55 @@
+<div class="flex">
+    <div style="width: 12%; min-width: 160px;">
+        <app-nav></app-nav>
+    </div>
+    <div class="dashCont">
+        <app-up-var style="height: 10%;"></app-up-var>
+        <div class="dash">
+            <div style="width: 100%;display:flex;justify-content: right;">
+                <mat-form-field appearance="fill" class="matF">
+                    <mat-label class="comC">Ubicacion</mat-label>
+                    <mat-select>
+                      <mat-option value="one">First option</mat-option>
+                      <mat-option value="two">Second option</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+
+                  <mat-form-field appearance="fill"class="matF">
+                    <mat-label class="comC">Zona</mat-label>
+                    <mat-select>
+                      <mat-option value="one">First option</mat-option>
+                      <mat-option value="two">Second option</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+
+                  <mat-form-field appearance="fill"class="matF">
+                    <mat-label class="comC">Sensor</mat-label>
+                    <mat-select>
+                      <mat-option value="one">First option</mat-option>
+                      <mat-option value="two">Second option</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+            </div>
+            <div class="row col-12" style="margin: 0;">
+                <div class="col-12 col-lg-6">
+                    <app-big-chart class="col-12" style="height: 100%;"></app-big-chart>
+                </div>
+                <div class="col-12 col-lg-6" style="padding:0 ;" align="center">
+                   <app-mini-charts></app-mini-charts> 
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+          <div class="col-12" style="padding: 10px;">
+
+            <div class="col-12" style="display: flex; align-items: center;justify-content: right;">
+              <div class="redCrc"><div class="circ"></div></div>
+              ULTIMA ACTUALIZACION
+            </div>
+            <div class="col-12" align="right">
+              19:54:00
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

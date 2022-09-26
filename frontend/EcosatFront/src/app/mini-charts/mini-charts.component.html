@@ -1,0 +1,57 @@
+<div class="chartsCont">
+    <div class="col-12" style="padding: 10px 0;">
+        <mat-card  class="matCrd">
+            <div class="row col-12">
+                <div class="col-6">
+                    <div style="padding: 5px 0px;">
+                        <p style="font-weight: bolder;">Zona 26</p>
+                        <p style="color:#9f9f9f;">Planta de filtrado</p>
+                    </div>
+                </div>
+                <div class="col-6" align="right">
+                    <div style="padding: 5px 0px;">
+                        <p style="color:#9f9f9f;">Temperatura</p>
+                        <p style="color: #9f9f9f;">Actual</p>
+                    </div>
+                </div>
+            </div>
+        </mat-card>
+        <div class=" col-12" style="margin-top: 10px; padding: 0;">
+            <app-four-chart class="row col-12" style="padding: 0;margin: 0;"></app-four-chart>
+        </div>
+        <div style="width: 100%;margin-top: 10px;">
+            <mat-card class="matCrd">
+                <div style="width: 100%;display: flex;">
+                    
+                      <div class="nivelRiesgo">
+                            Nivel de riesgo por dispositivo
+                      </div>
+                      <div class="circCont" align="center">
+                        <div class="redCirc">
+                            1
+                        </div>
+                        <div class="estatus">Critico</div>
+                      </div>
+                      <div class="circCont"align="center">
+                        <div class="yellowCirc">
+                            0
+                        </div>
+                        <div class="estatus">Moderado</div>
+                      </div>
+                      <div class="circCont"align="center">
+                        <div class="greenCirc">
+                            12
+                        </div>
+                        <div class="estatus">Bajo</div>
+                      </div>
+                      <div class="historico">
+                        Historico
+                      </div>
+                </div>
+            </mat-card>   
+        </div>
+        <div style="width: 100%; margin-top: 10px;">
+            <app-stats-chasrt style="width: 100%;"></app-stats-chasrt>
+        </div>
+    </div>
+</div>  

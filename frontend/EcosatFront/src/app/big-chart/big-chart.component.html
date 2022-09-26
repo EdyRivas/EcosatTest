@@ -1,0 +1,126 @@
+<div class="chartCont">
+  <mat-card class="chart">
+    <div class="padd">
+      <div class="rowCont">
+        <div class="levelCont">
+          <div class="nivelRiesgo">
+            Nivel de riesgo 
+          </div>
+          <div class="flex">
+            <div class="circCont" align="center">
+              <div class="redCirc">
+                1
+              </div>
+              <div class="estatus">Critico</div>
+            </div>
+            <div class="circCont"align="center">
+              <div class="yellowCirc">
+                0
+              </div>
+              <div class="estatus">Moderado</div>
+            </div>
+            <div class="circCont"align="center">
+              <div class="greenCirc">
+                  12
+              </div>
+              <div class="estatus">Bajo</div>
+            </div>
+          </div>
+        </div>
+        <!-- search -->
+       
+        <div class="second">
+          <mat-form-field appearance="outline" class="full" style="margin-right: 10px; width: 123px;">
+            <mat-label>Buscar</mat-label>
+            <input matInput>
+            <mat-icon matSuffix>search</mat-icon>
+          </mat-form-field>
+        
+          <mat-form-field appearance="fill" class="matF">
+            <mat-label class="comC">Cuartos Filtros</mat-label>
+            <mat-select>
+              <mat-option value="one">First option</mat-option>
+              <mat-option value="two">Second option</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+
+      
+    </div>
+    <div style="padding:10px;">
+          <table>
+      <thead>
+        <tr>
+          <th>Ubicacion</th>
+          <th>Sensor</th>
+          <th>Fecha</th>
+          <th>Hora</th>
+          <th>Tiempo recurrido</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="centered">
+
+              <div class="crG"></div> 
+              Zona 6
+            </div>
+          </td>
+          <td>Acometida 2</td>
+          <td>10/13/2021</td>
+          <td>01:23</td>
+          <td>25 minutos</td>
+        </tr>
+           <tr>
+          <td>
+            <div class="centered">
+            <div class="crR"></div> 
+            Zona 2
+          </div>
+        </td>
+          <td>Velocidad aire</td>
+          <td>10/12/2021</td>
+          <td>15:14</td>
+          <td>25 minutos</td>
+        </tr>
+           <tr>
+          <td>
+            <div class="centered">
+            <div class="crA"></div>
+            Zona 26
+          </div>
+          </td>
+          <td>Temperatura</td>
+          <td>10/12/2021</td>
+          <td>15:14</td>
+          <td>1 minuto</td>
+        </tr>
+           <tr>
+          <td>
+            <div class="centered">
+            <div class="crG"></div> 
+            Zona 3
+          </div>
+          </td>
+          <td>Densidad</td>
+          <td>10/12/21</td>
+          <td>15:19</td>
+          <td>25 minutos</td>
+        </tr>
+      </tbody>
+    </table>
+      
+   
+    </div>
+
+      <div class="btnCont col-12" align="right">
+
+        <button class="expBtn">
+           Exportar
+        </button>
+    </div>
+    
+  </mat-card>
+</div>

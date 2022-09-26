@@ -1,0 +1,49 @@
+.chartsCont{
+    padding: 0;
+    height: 96%;
+}
+p{
+    margin: 0;
+}
+.redCirc,.yellowCirc,.greenCirc{
+    border-radius: 100%; 
+    height:30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.redCirc{
+    background-color: rgb(167, 16, 16);
+}
+.yellowCirc{
+    background-color: rgb(255, 166, 0);
+}
+.greenCirc{
+    background-color: rgb(58, 215, 129);
+}
+.estatus{
+    font-size:8px; 
+    text-align: center;
+}
+.circCont{
+   padding: 0 7px;
+}
+.matCrd{
+    padding: 10px !important;
+}
+.nivelRiesgo{
+    max-width: 116px;
+    display: flex;
+    align-items: center;
+}
+.historico{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    align-items: end;   
+}
+::ng-deep .mat-form-field-wrapper{
+    padding: 0!important;
+}

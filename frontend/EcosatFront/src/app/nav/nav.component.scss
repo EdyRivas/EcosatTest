@@ -1,0 +1,37 @@
+.dashNav{
+    width: 100%;
+    height: 100%;
+    // padding:20px;
+    background-color: #004561;
+    display: flex;
+}
+.titleCont{
+    padding: 40px 10px 20px 10px;
+}
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+.btnCont{
+    display: flex;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+.btnCont:hover{
+ background-color: #13718b;
+}
+.navBtn{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+.icono{
+    transform: scale(1.5); margin-right: 10px;
+}
